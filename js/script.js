@@ -4,7 +4,7 @@
 function displayQuote(data) {
   
   "use strict";
-  $(".main-quote h2").html(data.value.joke);
+  $(".main-quote h4").html(data.value.joke);
   
 }
 
