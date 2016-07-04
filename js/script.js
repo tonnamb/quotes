@@ -11,7 +11,7 @@ function displayQuote(data) {
 function fetchQuote() {
   
   "use strict";
-  $.getJSON("http://api.icndb.com/jokes/random", function (data) {
+  $.getJSON("https://api.icndb.com/jokes/random", function (data) {
     displayQuote(data);
   });
   
@@ -20,7 +20,7 @@ function fetchQuote() {
 function tweetQuote() {
   
   "use strict";
-  var link = 'http://twitter.com/intent/tweet?text=' + encodeURIComponent($(".main-quote h2").text());
+  var link = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent($(".main-quote h2").text());
   window.open(link, '_blank');
   
 }
