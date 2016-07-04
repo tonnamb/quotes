@@ -20,7 +20,7 @@ function fetchQuote() {
 function tweetQuote() {
   
   "use strict";
-  var link = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent($(".main-quote h2").text());
+  var link = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent($(".main-quote h4").text());
   window.open(link, '_blank');
   
 }
