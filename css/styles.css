@@ -2,6 +2,10 @@ body {
   background: #93EDC7;
 }
 
+a {
+  color: black;
+}
+
 .button {
   background: #fff;
 }
